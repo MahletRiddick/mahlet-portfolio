@@ -1,5 +1,5 @@
 # Mahlet Riddick Portfolio
-
+https://mahletriddick.github.io/mahlet-portfolio
 Welcome to my portfolio! This repository contains the HTML, CSS, and JavaScript code for my personal website showcasing my web development projects, services, and more.
 
 ## About
