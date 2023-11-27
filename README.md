@@ -2,15 +2,6 @@
 
 Welcome to my portfolio! This repository contains the HTML, CSS, and JavaScript code for my personal website showcasing my web development projects, services, and more.
 
-## Table of Contents
-- [About](#about)
-- [Services](#services)
-- [Work](#work)
-- [Education & Experience](#education--experience)
-- [Reviews](#reviews)
-- [Contact](#contact)
-- [Footer](#footer)
-
 ## About
 I am Mahlet Riddick, a web developer based in Kampala, Uganda. With a background in ice cream making and a passion for technology, I bring a unique blend of creativity and coding expertise to web development.
 
@@ -41,7 +32,7 @@ See what my clients have to say:
 3. "Working with Mahlet Riddick was a game-changer for our online presence. Her attention to detail, creativity, and commitment to delivering beyond expectations made our website not just functional, but a true reflection of our brand." - Rahwa Yemane, Facebook
 
 ## Contact
-Interested in working together? Let's talk! [Contact me](https://formspree.io/f/xleyybao)
+Interested in working together? Let's talk!
 
 ## Footer
 - **Website:** [Mahlet Riddick](#)
