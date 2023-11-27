@@ -1,0 +1,149 @@
+*{
+    font-family:   'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),
+    url(IMGS/cover2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav img{
+    width: 70px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: palevioletred;
+    display: block;
+    margin: auto;
+    transform: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h2{
+    font-size: 50px;
+}
+.text-box h4{
+    font-size: 20px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+}
+.index{
+    width: 80;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.index-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30%;
+   position: relative;
+   overflow: hidden;
+   margin-bottom: 10%;
+}
+.index-col img{
+    width: 100%;
+
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(226,0,0,0.7);
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.table-index{
+    width: 80;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    background-color: lightpink;
+    margin-bottom: 0%;
+}
+.table-class{
+    margin: auto;
+    margin-bottom: 30%; 
+    width: 80%;
+    height: 250px;
+    
+}
+.table-class1{
+    background-color: coral;
+
+
+}
+.table-class2{
+    background-color: lightcoral;
+    text-align: center;
+
+}
